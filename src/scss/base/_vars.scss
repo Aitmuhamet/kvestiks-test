@@ -1,18 +1,30 @@
 :root {
   --container-width: 1116px;
-  --container-padding: 15px;
-
-  --font-main: "Poppins", sans-serif;
+  --container-padding: 12px;
+  
+  --font-main: "OpenSans", sans-serif;
   --font-accent: "Playfair Display", serif;
 
-  --page-bg: #fff;
-  --text-color: #000;
-  --accent: #ac182c;
+  --page-bg: #F5F5F5;
+  --secondary-color-bg: white;
+  --text-color: #383838;
+  --accent: #DD4E00;
 
-  --laptop-size: 1199px;
-  --tablet-size: 992px;
-  --mobile-size: 599px;
+  --bs-btn-bg: #f77833;
+  --bs-btn-hover-bg: #f6600e;
+  
+  // --laptop-size: 1199px;
+  // --tablet-size: 992px;
+  // --mobile-size: 599px;
 }
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1116px,
+  xxl: 1320px
+);
 
 .dark {
   --page-bg: #252526;

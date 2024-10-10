@@ -2,13 +2,13 @@
 .mobile-nav-btn {
 	--time: 0.1s;
 
-	--width: 40px;
-	--height: 30px;
+	--width: 18px;
+	--height: 24px;
 
-	--line-height: 4px;
-	--spacing: 6px;
+	--line-height: 2px;
+	--spacing: 3px;
 
-	--color: #000;
+	--color: #737373;
 	--radius: 4px;
 
 	/* Fixed height and width */
@@ -17,15 +17,15 @@
 
 	/* Dynamic height and width */
 	height: calc(var(--line-height) * 3 + var(--spacing) * 2);
-	width: var(--width);
+	// width: var(--width);
 
 	display: none;
 	justify-content: center;
 	align-items: center;
-	padding: 0;
+	padding: 12px 0px;
 	border: none;
 
-	@media (max-width: 992px) {
+	@media (max-width: 720px) {
 		display: flex;
 	}
 }

@@ -1,0 +1,28 @@
+.breadcrumb-section {
+  padding: 24px 0 32px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.breadcrumb {
+  margin: 0;
+}
+
+.breadcrumb-item a,
+.breadcrumb-item {
+  color: #424242;
+
+  /* Body 2 */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 18.2px */
+}
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 10px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 10px;
+}
