@@ -228,6 +228,10 @@
   img {
     max-height: 27px;
   }
+
+  picture {
+    display: flex;
+  }
 }
 
 .payment-info {
