@@ -175,6 +175,27 @@
     background: linear-gradient(0deg, #fff 3.43%, rgba(255, 255, 255, 0) 50%);
   }
 }
+.image-background span {
+  position: absolute;
+  top: 10px;
+  right: 13px;
+
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 4px 11px;
+
+  color: var(--text-color);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 11px */
+
+  @media (max-width: 992px) {
+    right: unset;
+    left: 6px;
+    top: 6px;
+  }
+}
 
 .payment-options {
   flex: 0 0 22%;
