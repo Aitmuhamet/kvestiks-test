@@ -2,7 +2,7 @@ import Swiper from "swiper";
 import { Navigation, Pagination } from "swiper/bundle";
 
 const swiperSlides = document.querySelectorAll(".swiper-slide");
-const slidesNumber = document.querySelector(".slider-info__total");
+const slidesNumber = document.querySelector(".slider-info-total");
 const slideCount = swiperSlides.length;
 const fraction = document.getElementById("fraction");
 fraction.textContent = `1 / ${slideCount}`
