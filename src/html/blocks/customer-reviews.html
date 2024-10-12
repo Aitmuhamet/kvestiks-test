@@ -3,14 +3,17 @@
     <h2 class="customer-reviews__title">
       Отзывы клиентов <sup class="slider-info__total"></sup>
     </h2>
-    <div class="slider-info">
+    <!-- <div class="slider-info">
       <span class="slider-info__current">1</span>
       <span class="slider-info__separator">/</span>
       <span class="slider-info__total">5</span>
-    </div>
+    </div> -->
     <div class="customer-reviews__list">
       <!-- Swiper -->
       <div class="swiper mySwiper content-container">
+        <!-- Вторая кастомная пагинация с точками -->
+        <div id="fraction" class="swiper-fraction"></div>
+        <div class="swiper-pagination"></div>
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="comment-card">
@@ -503,7 +506,6 @@
             </div>
           </div>
         </div>
-        <div class="swiper-pagination"></div>
       </div>
       <div class="customer-reviews__btn-wrapper">
         <div class="btn customer-reviews__btn">Смотреть все отзывы</div>
