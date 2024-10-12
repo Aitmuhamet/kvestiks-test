@@ -46,7 +46,7 @@ This will create an optimized production version of the project ready to be depl
 ## Design Reference
 The design for this project can be viewed on Figma:
 
-(Kvestiks.ru)[kvestiks.ru] (Product Page Design)[https://www.figma.com/design/H1ejjnGamGN22KYmUVrJlQ/product_page?node-id=1-1518&node-type=text&m=dev]
+[Kvestiks.ru](kvestiks.ru) [Product Page Design](https://www.figma.com/design/H1ejjnGamGN22KYmUVrJlQ/product_page?node-id=1-1518&node-type=text&m=dev)
 
 ## Technologies Used
 * HTML5
