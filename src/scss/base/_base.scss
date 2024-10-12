@@ -6,6 +6,9 @@ body {
   background-color: var(--page-bg);
   color: var(--text-color);
   font-family: var(--font-main);
+  
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 
   padding-top: 56px;
   transition: padding 0.3s ease-in-out;
