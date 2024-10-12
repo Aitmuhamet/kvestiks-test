@@ -19,3 +19,14 @@
   overflow-y: hidden;
   padding-right: var(--scrollbarWidth);
 }
+
+
+.btn-check:checked + .btn,
+:not(.btn-check) + .btn:active,
+.btn:first-child:active,
+.btn.active,
+.btn.show {
+  color: white;
+  background-color: #ee5a09;
+  border-color: #e15509;
+}

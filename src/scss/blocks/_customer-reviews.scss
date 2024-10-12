@@ -167,7 +167,6 @@
   margin-top: 10px;
 }
 
-
 .swiper-pagination {
   display: none;
   @media (max-width: 576px) {
@@ -316,21 +315,4 @@
   }
 }
 
-.payment-options--simple {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  .btn {
-    width: 437px;
-    @media (max-width: 576px) {
-      width: 100%;
-    }
-  }
-  @media (max-width: 768px) {
-    padding: 10px 12px;
-    border-radius: 7px 7px 0px 0px;
-    background: var(--secondary-color-bg);
-    box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.15);
-  }
-}
