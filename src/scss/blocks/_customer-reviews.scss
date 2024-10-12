@@ -167,11 +167,16 @@
   margin-top: 10px;
 }
 
-.swiper-pagination-fraction,
-.swiper-pagination-custom,
+
+.swiper-pagination {
+  display: none;
+  @media (max-width: 576px) {
+    display: block;
+  }
+}
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: 3px;
+  bottom: 5px;
 }
 .swiper-dot {
   width: 10px;
